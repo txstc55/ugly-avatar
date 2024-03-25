@@ -23,7 +23,7 @@
             type="turbulence"
             result="turbulence"
           />
-          <feDisplacementMap in="SourceGraphic" in2="noise" scale="2" />
+          <feDisplacementMap in="SourceGraphic" in2="turbulence" scale="2" />
         </filter>
         <filter id="fuzzy2">
           <feTurbulence
