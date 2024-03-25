@@ -275,6 +275,8 @@
         />
       </g>
     </svg>
+    <button @click="generateFace">ANOTHER</button>
+    <button @click="downloadSVGAsPNG">DOWNLOAD</button>
   </div>
 </template>
 
@@ -573,10 +575,34 @@ export default {
   align-items: center;
   /* center items vertically */
   justify-content: center;
-  background-color: #000000;
+  background-color: #ffffff;
   padding: 5px;
 }
 svg {
   background-color: #ffffff;
+}
+button {
+  margin-top: 10px;
+  width: 200px;
+  padding: 5px;
+  background: transparent;
+  border-width: 2px;
+  font-size: 15px;
+  border-color: black;
+  color: black;
+  font-weight: bold;
+  user-select: none;
+  border-radius: 10px;
+  box-shadow: 2px 2px 0px 0px rgba(0, 0, 0, 0.75);
+}
+
+button:hover {
+  background: black;
+  color: white;
+  transition: 0.3s;
+}
+button:active {
+  background: rgb(65, 65, 65);
+  box-shadow: 1px 1px 0px 0px rgba(0, 0, 0, 0.75);
 }
 </style>
