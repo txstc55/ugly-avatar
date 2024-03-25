@@ -20,17 +20,7 @@
             id="turbulence"
             baseFrequency="0.05"
             numOctaves="3"
-            type="turbulence"
-            result="turbulence"
-          />
-          <feDisplacementMap in="SourceGraphic" in2="turbulence" scale="2" />
-        </filter>
-        <filter id="fuzzy2">
-          <feTurbulence
-            id="turbulence"
-            baseFrequency="0.1"
-            numOctaves="100"
-            type="turbulence"
+            type="noise"
             result="noise"
           />
           <feDisplacementMap in="SourceGraphic" in2="noise" scale="2" />
@@ -261,7 +251,7 @@
           stroke="black"
           :stroke-width="3"
           stroke-linejoin="round"
-          filter="url(#fuzzy2)"
+          filter="url(#fuzzy)"
         ></path>
       </g>
       <g id="mouth">
