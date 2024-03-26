@@ -1,6 +1,6 @@
 # ugly-face
 
-This project is under MIT license. However, if you do wish to use this project for commercial use, an email will be appreciated.
+This project is under Attribution-NonCommercial 4.0 International License. This means no commercial use for the project. I thought about this for a time. If you want to use this as part of your website that needs an avatar generator, you are free to use it. If you however, buid an app soely on this code as your main project, I am highly against that practice. I don't want to have the frustration of "oh someone copied my code and made money with it".
 
 ## Project setup
 ```
