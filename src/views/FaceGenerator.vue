@@ -566,6 +566,7 @@ export default {
 }
 svg {
   background-color: #ffffff;
+  margin-bottom: 25px;
 }
 button {
   margin-top: 10px;
