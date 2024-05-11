@@ -3,8 +3,8 @@
     <svg
       viewBox="-100 -100 200 200"
       xmlns="http://www.w3.org/2000/svg"
-      width="500"
-      height="500"
+      width="100%"
+      height="100%"
       id="face-svg"
     >
       <defs>
@@ -554,10 +554,7 @@ export default {
 
 <style scoped>
 .container {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  margin: 100px auto;
   display: inline-flex;
   /* align-items items in column */
   flex-direction: column;
@@ -566,7 +563,6 @@ export default {
   /* center items vertically */
   justify-content: center;
   background-color: #ffffff;
-  padding: 5px;
 }
 svg {
   background-color: #ffffff;
