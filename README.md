@@ -4,4 +4,4 @@ This project is under Attribution-NonCommercial 4.0 International License. This 
 
 Visit the website: https://txstc55.github.io/ugly-avatar
 
-i have seen a good amount of copycat websites. I am fairly disappointed.
+I have seen a good amount of copycat websites. I am fairly disappointed.
