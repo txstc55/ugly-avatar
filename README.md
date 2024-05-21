@@ -4,20 +4,4 @@ This project is under Attribution-NonCommercial 4.0 International License. This 
 
 Visit the website: https://txstc55.github.io/ugly-avatar
 
-## Project setup
-```
-npm install
-```
-
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+i have seen a good amount of copycat websites. I am fairly disappointed.
